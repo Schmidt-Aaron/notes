@@ -1,0 +1,191 @@
+Call stuff
+
+Call is used to "explicitly bind" a value's this to another function/object.
+Call and apply are almost indentical
+
+
+//ex. 1
+function Product(name, price) {
+  this.name = name;
+  this.price = price;
+}
+// The use of call here allows us to chain constructors
+// basically applying the 'this' to the name and price in the example below.
+function Food(name, price){
+  Product.call(this, name, price);
+  this.category = 'food';
+}
+
+//same example without the call. longer.also, not a "product" unlike the example above
+function Toy(name, price) {
+  this.category = 'toy';
+  this.name = name;
+  this.price = price;
+}
+
+var cheese = new Food('feta', 5);
+
+//Ex.2
+// here we use call to apply a anonymous funtion to every object in the array 
+var animals = [
+  {species: 'toad', name: 'Burps'},
+  {species: 'dog', name: 'Charles'}
+  ];
+  
+  for(var i = 0; i < animals.length; i++){
+    (function(i) {
+      this.print = function() {
+        console.log('#' + i + ' ' + this.species + ": " + this.name);
+      }
+      this.print();
+    }).call(animals[i], i); // here we use call to apply the linked function to the animals Object
+  }
+
+//Ex.3
+// call is used here to both to specify the values for this in the first greet fuction and then call the function. cool!
+
+function greet() {
+  var reply = [this.person, 'Is an Awesome', this.role].join(' ');
+  console.log(reply);
+}
+
+var i = {
+  person: "Aaron S", role: 'cook'
+};
+
+greet.call(i); // Aaron S Is an Awesome cook
+
+
+//ex.4
+Hard Binding
+function foo() {
+  console.log(this.a);
+}
+
+var obj = {
+  a: 2
+};
+
+// hard binds obj to foo
+var bar = function() {
+  foo.call(obj);
+};
+
+bar(); //2
+setTimeout( bar, 100); //2
+
+//'bar' hard binds 'foo''s 'this' to 'obj'
+// so that it cannot be overridden
+
+bar.call(window); //2
+
+
+
+//more hard binding
+//This is example is a bit above my head. I see whats happening, but I am not able to apply the same technique myself…yet
+
+function foo(something) {
+  console.log(this.a, something);
+  return this.a + something;
+}
+
+//simple 'bind' helper
+function bind(fn, obj) {
+  return function() {
+    return fn.apply( obj, arguments);
+  };
+}
+
+var obj = {
+  a: 2
+};
+
+var bar = foo.bind(obj);
+var b = bar(3); //2 3
+console.log(b); //5
+
+
+
+///
+function foo(el) {
+  console.log(el, this.id);
+}
+
+var obj = {
+  id: "potatoe"
+};
+
+var four = "four";
+[1, 2, 3, four].forEach(foo, obj);
+
+/* Another example  */
+//this example show the precendence of implicit vs explicit binding.
+//note that using call to explicitly bind overrules the Implicit binding
+
+function foo() {
+  console.log(this.a);
+}
+
+var obj1 = {
+  a: 2,
+  foo: foo
+};
+
+var obj2 = {
+  a: 3,
+  foo: foo
+};
+
+obj1.foo(); //2
+obj2.foo(); //3
+
+obj1.foo.call(obj2); //3
+obj2.foo.call(obj1); //2
+
+/* Another example  */
+
+function foo(something) {
+  this.a = something;
+}
+
+var obj1 = {
+  foo: foo
+};
+
+var obj2 = {};
+
+obj1.foo(2); 
+console.log(obj1.a);  //2
+
+obj1.foo.call(obj2, 3);
+console.log( obj2.a); // 3
+
+var bar = new obj1.foo(4);
+console.log(obj1.a); // 2
+console.log(bar.a); // 4 == new > implicit binding
+
+/* Another example  */
+function foo(something) {
+  this.a = something;
+}
+
+var obj1 = {};
+
+var bar = foo.bind(obj1);
+bar(2);
+console.log(obj1.a); //2
+
+var baz = new bar(3);
+console.log(obj1.a); //2
+console.log(baz.a); //3
+
+
+/* Another example  */
+
+
+
+
+Examples are based on:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md
