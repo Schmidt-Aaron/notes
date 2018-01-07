@@ -15,4 +15,8 @@ tips: ctrl + D to select multiple instances of highlighted word
   const bird = 'the word';
   ```
 </details>
+
 *Emmet refresher
+
+#Game of life with React
+game on...
