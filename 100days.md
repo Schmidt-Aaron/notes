@@ -1,13 +1,13 @@
-#100days of code
+# 100days of code
 
-##Day 1 1/6/18
+## Day 1 1/6/18
 (~2hrs)
-###Front End Masters VS Code by Mike North
+### Front End Masters VS Code by Mike North
 (1.5hrs)
 tips: ctrl + D to select multiple instances of highlighted word
 
-*Markdown refresher
-**Detail/summary is pretty cool
+* Markdown refresher
+** Detail/summary is pretty cool
 <details>
   <summary>This is a cool Markdown feature</summary>
 
