@@ -78,3 +78,8 @@ let x = /** @type {HTMLInputElement} */(
 );
 ```
 this will force the system to see the variable as the declared type. In the exampe above, x will now be accepted as an input element.
+
+##R1D3 1/8/18
+
+CSS animations and page location triggers
+codepen:https://codepen.io/aaronms/pen/MrrPpE?editors=0110
