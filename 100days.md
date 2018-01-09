@@ -1,8 +1,11 @@
 # 100days of code
 
 ## Day 1 1/6/18
+
 (~2hrs)
+
 ### Front End Masters VS Code by Mike North
+
 (1.5hrs)
 tips: ctrl + D to select multiple instances of highlighted word
 
