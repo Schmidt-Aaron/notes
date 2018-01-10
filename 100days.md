@@ -86,3 +86,7 @@ this will force the system to see the variable as the declared type. In the exam
 
 CSS animations and page location triggers
 codepen:https://codepen.io/aaronms/pen/MrrPpE?editors=0110
+
+### R1D4 1/9/18
+
+Started on my game of life project. Used create-react-app to bootstrap it. 
