@@ -95,3 +95,15 @@ Started on my game of life project. Used create-react-app to bootstrap it.
 
 1. https://www.youtube.com/watch?v=PM0_Er3SvFQ
 1. https://codepen.io/rambutan/pen/ONOaaZ?editors=0010
+
+### D5 1/10/18
+
+Listened to syntax.fm about GraphQL. 
+Looked over some react game of life code - still don't have a great handle on how to build. Will propably come when I actually start coding it. 
+Watched a couple videos on CSS animation.
+
+### D6 1/11/18
+
+Worked on my game of life. I got a grid to display by creating a 2D array and pushing a box class into each spot. 
+
+There is a weird gap between the rows right now. Padding and margin are both at 0... Starting to get the hang of props and state.
