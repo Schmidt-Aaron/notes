@@ -90,3 +90,8 @@ codepen:https://codepen.io/aaronms/pen/MrrPpE?editors=0110
 ### R1D4 1/9/18
 
 Started on my game of life project. Used create-react-app to bootstrap it. 
+
+*Sources*
+
+1. https://www.youtube.com/watch?v=PM0_Er3SvFQ
+1. https://codepen.io/rambutan/pen/ONOaaZ?editors=0010
