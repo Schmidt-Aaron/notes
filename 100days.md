@@ -106,4 +106,8 @@ Watched a couple videos on CSS animation.
 
 Worked on my game of life. I got a grid to display by creating a 2D array and pushing a box class into each spot. 
 
-There is a weird gap between the rows right now. Padding and margin are both at 0... Starting to get the hang of props and state.
+There is a weird gap between the rows right now. Padding and margin are both at 0... hmm fixed that by setting the line-height and font-size to 0 on the parent element.
+
+Next issue is how to activate cells ie toggle state. MY first idea was to play with toggling the class. This seems to be more difficult that it should be. Should reeval approach.
+
+Starting to get the hang of props and state.
