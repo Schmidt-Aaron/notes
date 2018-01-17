@@ -111,3 +111,36 @@ There is a weird gap between the rows right now. Padding and margin are both at 
 Next issue is how to activate cells ie toggle state. MY first idea was to play with toggling the class. This seems to be more difficult that it should be. Should reeval approach.
 
 Starting to get the hang of props and state.
+
+### D7 1/12/18
+
+Watched coding train video on game of life. Will change my approach a little.
+
+1. create array function
+1. render array
+1. add lifecycle => new array
+1. render new array
+
+### D8 1/13/18
+
+rest day. Thinking about order of operations with react + canvas. 
+
+### D9 1/14/18
+
+not productive
+
+### D10 1/15/18
+
+Worked on GOF project. refactored existing code and added logic to compute lifecycle. SLOWWWW
+
+### D11 1/16/18
+
+Got program to work... computer runs out of memory though. So that isn't ideal. Will have to refactor. Maybe ditch canvas and go back to a more DOM centric approach.
+
+### D12 1/17/18
+
+Looked at WP docs - updated all sites. 
+Will add more animations to work site.
+refactor GOF to remove canvas - good example: https://codepen.io/chemok78/pen/aBgRGm?editors=0010
+
+ 
