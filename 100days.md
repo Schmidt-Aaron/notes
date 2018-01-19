@@ -143,4 +143,9 @@ Looked at WP docs - updated all sites.
 Will add more animations to work site.
 refactor GOF to remove canvas - good example: https://codepen.io/chemok78/pen/aBgRGm?editors=0010
 
- 
+### D13 1/18/18
+
+ARticles to look into further:
+1. https://medium.mybridge.co/learn-react-js-from-top-45-tutorials-for-the-past-year-v-2018-28b7f4d4b2c4
+1. https://medium.com/@strapi/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8
+1. https://hackernoon.com/migrating-your-node-js-rest-api-to-serverless-d2a170e0856c 
