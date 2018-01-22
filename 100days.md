@@ -154,3 +154,15 @@ ARticles to look into further:
 ### D14 1/19/18
 
 Refactoring GOF - created a new branch to save the memory hogging code. Maybe revisit later - curious to how the program can eat up gigs of ram.
+
+### D15 1/20/18 and D16 1/21/18
+
+*crickets*
+
+### 1/21/18
+
+(1) codewars.com kata: interesting pattern using indexOf to generate numbers of a pattern - useful if numbers are sequential. Regex revisted
+
+intersting article on implicit / explicit coercion: https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839 
+
+I should work on React later.
