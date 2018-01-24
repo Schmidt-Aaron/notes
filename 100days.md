@@ -159,10 +159,44 @@ Refactoring GOF - created a new branch to save the memory hogging code. Maybe re
 
 *crickets*
 
-### 1/21/18
+### 1/22/18
 
-(1) codewars.com kata: interesting pattern using indexOf to generate numbers of a pattern - useful if numbers are sequential. Regex revisted
+(2) codewars.com kata: interesting pattern using indexOf to generate numbers of a pattern - useful if numbers are sequential. Regex revisted. https://www.codewars.com/kata/5938f5b606c3033f4700015a
 
 intersting article on implicit / explicit coercion: https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839 
 
 I should work on React later.
+
+### 1/23/18
+
+Worked on work website. Took several hours to run all necessary updates/scans and pull a fresh copy of the site down. Probably should have done them concurrantly. Added some animation to the home page - had issues with adding multiple animation with my bare bones script. Might have to go with a more robust custom script to deal with having custom animations. 
+
+### 1/24/18
+
+Work on work website some. 
+
+FEM JS for Wordpress...
+wp_enqueue_script(
+  'unique handle name',
+  get_stylesheet_directory_uri() . '/path/to/file.js',
+  ['dependency-handles'], //used for load order
+  'version' //used for caching
+  loadInFooter // true(default) or false
+);
+
+
+wp_localize_script(
+  'js-handle', 
+  'name_for_js',
+  [
+    'site_url' => esc_url( home_url() ),
+    'site_name' => get_bloginfo('name')
+  ]
+);
+
+add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
+  //add my script to the queue
+
+can use any JS included in WP core..
+conditionally enqueuing JS
+
