@@ -175,7 +175,8 @@ Worked on work website. Took several hours to run all necessary updates/scans an
 
 Work on work website some. 
 
-FEM JS for Wordpress...
+FEM JS for Wordpress... https://github.com/zgordon/frontend-masters-jsforwp
+
 wp_enqueue_script(
   'unique handle name',
   get_stylesheet_directory_uri() . '/path/to/file.js',
@@ -200,3 +201,4 @@ add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
 can use any JS included in WP core..
 conditionally enqueuing JS
 
+*http://docs.chassis.io* - should look into this for WP dev
