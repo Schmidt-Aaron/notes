@@ -171,6 +171,12 @@ I should work on React later.
 
 Worked on work website. Took several hours to run all necessary updates/scans and pull a fresh copy of the site down. Probably should have done them concurrantly. Added some animation to the home page - had issues with adding multiple animation with my bare bones script. Might have to go with a more robust custom script to deal with having custom animations. 
 
+A couple animation /scroll libs
+1. https://github.com/michalsnik/aos
+  1. https://css-tricks.com/aos-css-driven-scroll-animation-library/
+1. https://github.com/matthieua/WOW
+1. 
+
 ### 1/24/18
 
 Work on work website some. 
