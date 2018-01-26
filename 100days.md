@@ -208,3 +208,8 @@ can use any JS included in WP core..
 conditionally enqueuing JS
 
 *http://docs.chassis.io* - should look into this for WP dev
+
+### 1/25/18
+
+FEM JS for wp... a couple videos.
+not much done today. 
