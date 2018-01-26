@@ -212,4 +212,10 @@ conditionally enqueuing JS
 ### 1/25/18
 
 FEM JS for wp... a couple videos.
-not much done today. 
+Eloquent JS ch3
+not much done today :(
+
+### 1/26/18
+
+eloquent JS ch4
+ 
