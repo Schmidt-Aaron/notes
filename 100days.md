@@ -217,5 +217,8 @@ not much done today :(
 
 ### 1/26/18
 
-eloquent JS ch4
+eloquent JS ch4 ex completed: all
+eloquent JS ch5 ex completed: 1, 
+FEM JS for wp- finished AJAX in WP section
+TODO: [Scrimba](https://scrimba.com/g/gflexbox)) flexbox and CSS grid courses
  
