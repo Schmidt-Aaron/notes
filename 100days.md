@@ -222,3 +222,17 @@ eloquent JS ch5 ex completed: 1,
 FEM JS for wp- finished AJAX in WP section
 TODO: [Scrimba](https://scrimba.com/g/gflexbox)) flexbox and CSS grid courses
  
+
+ ### 1/27 + 1/28 PDX Holiday
+
+ ### 1/29/18
+
+ article to read more closely: https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc
+
+Page speed stuff
+ critcal css: https://www.sitelocity.com/critical-path-css-generator 
+ https://criticalcss.com/
+ WP plugin to try: https://wordpress.org/plugins/autoptimize/
+
+ Thinking of rewriting work website with understrap theme to follow updated best practices + squeeze out more perf / faster load time. It could also be a good time to revamp my WP workflow... although the bang for my buck there might be pretty low. a more modular approach would be ideal though. 
+
