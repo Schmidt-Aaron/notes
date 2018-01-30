@@ -1,6 +1,8 @@
-# 100days of code
+# 100days of code 
 
-## Day 1 1/6/18
+Not necessaryly consecutive. If I miss a day I will subtract it from day total.
+
+## D1 1/6/18
 
 (~2hrs)
 
@@ -28,7 +30,7 @@ peek editor and find all references (F2) neat!
 game on...
 installed create-react-app then got bored?
 
-## R1D2 1/7/18
+## D2 1/7/18
 
 ### Front End Masters VS Code by Mike North
 Typechecking
@@ -82,12 +84,12 @@ let x = /** @type {HTMLInputElement} */(
 ```
 this will force the system to see the variable as the declared type. In the exampe above, x will now be accepted as an input element.
 
-### R1D3 1/8/18
+### D3 1/8/18
 
 CSS animations and page location triggers
 codepen:https://codepen.io/aaronms/pen/MrrPpE?editors=0110
 
-### R1D4 1/9/18
+### D4 1/9/18
 
 Started on my game of life project. Used create-react-app to bootstrap it. 
 
@@ -125,41 +127,41 @@ Watched coding train video on game of life. Will change my approach a little.
 
 rest day. Thinking about order of operations with react + canvas. 
 
-### D9 1/14/18
+### 1/14/18
 
 not productive
 
-### D10 1/15/18
+### D8.2 1/15/18
 
 Worked on GOF project. refactored existing code and added logic to compute lifecycle. SLOWWWW
 
-### D11 1/16/18
+### D9 1/16/18
 
 Got program to work... computer runs out of memory though. So that isn't ideal. Will have to refactor. Maybe ditch canvas and go back to a more DOM centric approach.
 
-### D12 1/17/18
+### D10 1/17/18
 
 Looked at WP docs - updated all sites. 
 Will add more animations to work site.
 refactor GOF to remove canvas - good example: https://codepen.io/chemok78/pen/aBgRGm?editors=0010
 https://codepen.io/giveback007/pen/aybGVb?editors=0010
 
-### D13 1/18/18
+### D11 1/18/18
 
 ARticles to look into further:
 1. https://medium.mybridge.co/learn-react-js-from-top-45-tutorials-for-the-past-year-v-2018-28b7f4d4b2c4
 1. https://medium.com/@strapi/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8
 1. https://hackernoon.com/migrating-your-node-js-rest-api-to-serverless-d2a170e0856c 
 
-### D14 1/19/18
+### D12 1/19/18
 
 Refactoring GOF - created a new branch to save the memory hogging code. Maybe revisit later - curious to how the program can eat up gigs of ram.
 
-### D15 1/20/18 and D16 1/21/18
+### D11 1/20/18 and D10 1/21/18
 
-*crickets*
+*crickets* -2 days
 
-### 1/22/18
+### D11 1/22/18
 
 (2) codewars.com kata: interesting pattern using indexOf to generate numbers of a pattern - useful if numbers are sequential. Regex revisted. https://www.codewars.com/kata/5938f5b606c3033f4700015a
 
@@ -167,17 +169,16 @@ intersting article on implicit / explicit coercion: https://medium.freecodecamp.
 
 I should work on React later.
 
-### 1/23/18
+### D12 1/23/18
 
 Worked on work website. Took several hours to run all necessary updates/scans and pull a fresh copy of the site down. Probably should have done them concurrantly. Added some animation to the home page - had issues with adding multiple animation with my bare bones script. Might have to go with a more robust custom script to deal with having custom animations. 
 
 A couple animation /scroll libs
 1. https://github.com/michalsnik/aos
   1. https://css-tricks.com/aos-css-driven-scroll-animation-library/
-1. https://github.com/matthieua/WOW
-1. 
+1. https://github.com/matthieua/WOW 
 
-### 1/24/18
+### D13 1/24/18
 
 Work on work website some. 
 
@@ -209,13 +210,13 @@ conditionally enqueuing JS
 
 *http://docs.chassis.io* - should look into this for WP dev
 
-### 1/25/18
+### D14 1/25/18
 
 FEM JS for wp... a couple videos.
 Eloquent JS ch3
 not much done today :(
 
-### 1/26/18
+### D15 1/26/18
 
 eloquent JS ch4 ex completed: all
 eloquent JS ch5 ex completed: 1, 
@@ -223,9 +224,11 @@ FEM JS for wp- finished AJAX in WP section
 TODO: [Scrimba](https://scrimba.com/g/gflexbox)) flexbox and CSS grid courses
  
 
- ### 1/27 + 1/28 PDX Holiday
+ ### 1/27 + 1/28 
+ 
+ *PDX Holiday* -2 days
 
- ### 1/29/18
+ ### D14 1/29/18
 
  article to read more closely: https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc
 
@@ -236,3 +239,8 @@ Page speed stuff
 
  Thinking of rewriting work website with understrap theme to follow updated best practices + squeeze out more perf / faster load time. It could also be a good time to revamp my WP workflow... although the bang for my buck there might be pretty low. a more modular approach would be ideal though. 
 
+ worked on react GoL - got grid set up, and generation logic done. Next step is to get the running logic working. I might have an error on my generation logic - should check it out. 
+
+ FEM js for WP a couple vids: need to finish challenge 5 + 6
+
+### D15 1/30/18
