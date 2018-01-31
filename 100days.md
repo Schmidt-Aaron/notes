@@ -244,3 +244,7 @@ Page speed stuff
  FEM js for WP a couple vids: need to finish challenge 5 + 6
 
 ### D15 1/30/18
+
+FEM JS for WP - finished accessing APIs inside Wordpress
+
+### D16 1/31/18
