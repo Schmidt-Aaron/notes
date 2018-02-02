@@ -253,3 +253,12 @@ finished JS for WP
 
 ### D17 2/1/18
 
+Tired => no actual coding
+1. Coding train videos
+1. other youtube coding vids
+
+### D18 2/2/18
+
+1. Codewars kata (1)
+1. github practice
+1. started Colts advanced
