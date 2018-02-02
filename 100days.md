@@ -248,3 +248,8 @@ Page speed stuff
 FEM JS for WP - finished accessing APIs inside Wordpress
 
 ### D16 1/31/18
+
+finished JS for WP
+
+### D17 2/1/18
+
