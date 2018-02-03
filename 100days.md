@@ -261,4 +261,10 @@ Tired => no actual coding
 
 1. Codewars kata (1)
 1. github practice
-1. started Colts advanced
+1. started Colts Advanced
+
+cool sites: 
+1. [30 species](http://www.species-in-pieces.com/) 
+  1. [Making of ^ ](https://www.smashingmagazine.com/2015/06/the-making-of-in-pieces/)
+1. [waaark](https://waaark.com/)
+1. [vscode stuff](http://vscodecandothat.com/)
