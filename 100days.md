@@ -268,3 +268,17 @@ cool sites:
   1. [Making of ^ ](https://www.smashingmagazine.com/2015/06/the-making-of-in-pieces/)
 1. [waaark](https://waaark.com/)
 1. [vscode stuff](http://vscodecandothat.com/)
+
+### D19 2/3/18
+
+1. youtube vids
+
+### D19 2/4/18
+
+nothing -1 day
+
+### D20 2/5/18
+
+1. codewars kata(1)
+1. youtube vids
+1. worked on game of life. A bit of a struggle to get the lifecycle thing figured out. The two main obstacles are how to get the incrementGeneration function to only be called after the previous call is done, and how to assign a clickhandler to change the state of the individual cells. 
