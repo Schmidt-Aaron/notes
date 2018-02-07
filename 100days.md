@@ -282,3 +282,9 @@ nothing -1 day
 1. codewars kata(1)
 1. youtube vids
 1. worked on game of life. A bit of a struggle to get the lifecycle thing figured out. The two main obstacles are how to get the incrementGeneration function to only be called after the previous call is done, and how to assign a clickhandler to change the state of the individual cells. 
+
+### D21 2/6/18
+
+Made decent progrss on game of life. Refactored with more components. I moved all the state into a game class and pulled the board, counter, and buttons into that class. [this post](https://forum.freecodecamp.org/t/nagging-little-questions-about-my-react-game-of-life-program/113482/2) as the linked GOL demonstrated how to pass functions down as props and how to pass this back up the chain. 
+I finished up the toggle on click function. 
+Something is still wrong with how I figure out neighbors though - I will have to look into that more.
