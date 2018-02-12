@@ -288,3 +288,29 @@ nothing -1 day
 Made decent progrss on game of life. Refactored with more components. I moved all the state into a game class and pulled the board, counter, and buttons into that class. [this post](https://forum.freecodecamp.org/t/nagging-little-questions-about-my-react-game-of-life-program/113482/2) as the linked GOL demonstrated how to pass functions down as props and how to pass this back up the chain. 
 I finished up the toggle on click function. 
 Something is still wrong with how I figure out neighbors though - I will have to look into that more.
+
+### D22 2/7/18
+
+debuggin my gol... :(
+udemy vids
+
+### D23 2/8/18
+
+More debuggins...sigh
+udemy vids
+
+### D24 2/9/18
+
+udemy vids
+
+### D25 2/10/18
+
+Node videos
+
+### D26 2/11/18 
+node videos
+
+### D27 2/12/18
+
+codewars kata(2)
+udemy vids
