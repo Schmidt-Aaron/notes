@@ -314,3 +314,16 @@ node videos
 
 codewars kata(2)
 udemy vids
+
+### D28 2/13/18
+
+codewars katas
+udemy vids - animation practice: https://codepen.io/aaronms/pen/QQMONd?editors=1100 sunrise animation. used straight lines; would be cool to have an actual arc. tough to figure out though :(
+
+### D29 2/14/18
+
+udemy more animation practice.
+https://codepen.io/pen/?editors=1100
+udemy vids - flexbox
+
+codewars 335 => 347
