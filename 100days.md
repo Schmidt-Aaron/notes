@@ -317,7 +317,7 @@ udemy vids
 
 ### D28 2/13/18
 
-codewars katas
+codewars katas rank 6 => 5
 udemy vids - animation practice: https://codepen.io/aaronms/pen/QQMONd?editors=1100 sunrise animation. used straight lines; would be cool to have an actual arc. tough to figure out though :(
 
 ### D29 2/14/18
@@ -327,3 +327,7 @@ https://codepen.io/pen/?editors=1100
 udemy vids - flexbox
 
 codewars 335 => 347
+
+### D30 2/15/18
+
+codewars 347 => 371
