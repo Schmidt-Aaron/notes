@@ -335,3 +335,11 @@ codewars 347 => 371
 ### D31 2/15/18
 
 codewars 371 => 371 ?? no increase; did several algos
+
+### D32 2/16/18
+
+Codewars and...
+
+###D31 2/19/18
+
+codewars 386 =>
