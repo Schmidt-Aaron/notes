@@ -340,6 +340,11 @@ codewars 371 => 371 ?? no increase; did several algos
 
 Codewars and...
 
-###D31 2/19/18
+### D31 2/19/18
 
-codewars 386 =>
+codewars 386 => 392
+
+### D32 2/20/18
+
+Worked through flexbox section of Udemy course. Will practice by creating a responsive landing page. use their template as a starting point
+codewars 392 =>
