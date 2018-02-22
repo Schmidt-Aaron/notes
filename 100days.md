@@ -347,4 +347,11 @@ codewars 386 => 392
 ### D32 2/20/18
 
 Worked through flexbox section of Udemy course. Will practice by creating a responsive landing page. use their template as a starting point
-codewars 392 =>
+codewars 392 => ...
+
+### D33 2/21/18
+
+codewars 392 => 307
+I think I made [this one](https://www.codewars.com/kata/simple-frequency-sort/train/javascript) far more complicated then it needed to be. I should perhaps revisit and refactor at some point... maybe...
+worked on udemy landing flexbox landing page.
+started asyc section of udemy.
