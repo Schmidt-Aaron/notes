@@ -338,7 +338,7 @@ codewars 371 => 371 ?? no increase; did several algos
 
 ### D32 2/16/18
 
-Codewars and...
+Codewars and???
 
 ### D31 2/19/18
 
@@ -346,12 +346,114 @@ codewars 386 => 392
 
 ### D32 2/20/18
 
-Worked through flexbox section of Udemy course. Will practice by creating a responsive landing page. use their template as a starting point
+Worked through flexbox section of Udemy course. Will practice by creating a responsive landing page. use their template as a starting point and create my own instead of following along.
+[codepen](https://codepen.io/aaronms/pen/oEqOBd) about 40% done with sections, then need to fine tune the design a bit. 
+ 
 codewars 392 => ...
 
 ### D33 2/21/18
 
-codewars 392 => 307
+Watched Udemy vids
+codewars 392 => 407
 I think I made [this one](https://www.codewars.com/kata/simple-frequency-sort/train/javascript) far more complicated then it needed to be. I should perhaps revisit and refactor at some point... maybe...
 worked on udemy landing flexbox landing page.
 started asyc section of udemy.
+
+### D34 2/22/18
+
+codewars 407 => 415
+found a neat way to assign values to an array/string based on their place in the alphabet. Version 1 was my first answer, version 2 was the new way.
+
+Version 1: create a alphabet, manually/programically, and then iterate through an index created from the string with indexOf() to get the value of each character.
+
+```
+const stringToVal = string => {
+  let key = " abcdefgh...z";
+  let sum = 0;
+  [...string].forEach(l => sum += key.indexOf(l));
+  return sum;
+}
+```
+
+Version 2: this approach uses the fact that the undercase alphabet starts at charcode 97. So substracting 96 from the charCode of a lowercase letter gives you its place in the alphabet. The reduce function then iterates through the array and adds all of the character values together, starting with 0. Neat!
+
+```
+const stringToVal = string => [...string]
+  .reduce((res, l) => res += l.charCodeAt() -96, 0);
+```
+
+[CodeWars](https://www.codewars.com/kata/last-digit-symmetry)
+
+Fun with primes 
+
+first attempt: ugh this got longer than I thought.. 
+```
+const isPrime = (num) => {
+  if( num < 2) return false;
+  
+  if (num === 2) return true;
+  
+  if (num % 2 === 0) return false;
+  
+  for (var i = 3; i*i <= num; i += 2) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+const first = (num) => {
+  if (num > 9) {
+    let temp = num.toString()
+    return parseInt(temp[0] + temp[1], 10);
+  }
+}
+
+const last = (num) => {
+  if (num > 9) {
+    let temp = num.toString();
+    return parseInt(temp[temp.length - 2] + temp[temp.length - 1], 10);
+  }
+}
+
+const solve = (a, b) => {
+  let ans = 0;
+  for(let i = a; i < b;  i++) {
+    if(i >= 11) {
+      const square = i * i;
+      
+      if(isPrime(first(i)) === true) {
+        if(isPrime(first(square)) === true) {
+          if(last(i) === last(square)) {
+            ans += 1
+          }
+        }
+      }
+    }
+  }
+  
+  return ans;
+}
+```
+OK. I admit it is not very pretty. Lets refactor it a bit. First let's make the isPrime function a little nicer.
+```
+const isPrime = num => {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+        if(num % i === 0) return false; 
+    return num !== 1;
+}
+```
+
+That's a bit more succint, yah? Next up I can shave down them the first and last helper functions by using substr(). I can also remove the first 'if' check as their are no numbers that qualify that are less than 2 digits. 
+
+```
+const first = (num) => {
+  return parseInt( num.toString().substr(0,2), 10 );
+}
+
+const last = (num) => {
+  let temp = num.toString();
+  return parseInt( temp.substr(temp.length - 2, 2), 10 );
+}
+```
