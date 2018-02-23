@@ -9,10 +9,11 @@
 1. finish FCC voting app
 1. finish FCC game of life
 1. make a more mature weather app
+1. [fork](https://github.com/h5bp/Front-end-Developer-Interview-Questions) => then answer these questions. 
 
 ## Courses / Tuts
 
-1. Colt Advanced - Progress: (3/33)
+1. Colt Advanced - Progress: (7/33)
 1. Udemy React
 1. WB React
 1. FEM React?

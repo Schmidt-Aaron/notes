@@ -457,3 +457,27 @@ const last = (num) => {
   return parseInt( temp.substr(temp.length - 2, 2), 10 );
 }
 ```
+
+### D35 2/23/18
+
+Read a few articles. This [one](https://medium.freecodecamp.org/how-i-applied-lessons-learned-from-a-failed-technical-interview-to-get-5-job-offers-656fcf58034d) about a new dev's first coding job was pretty inspiring.
+
+codewars 422 =>
+
+[Bad Apples](https://www.codewars.com/kata/bad-apples/train/javascript)
+
+unfinished snippet
+```
+const badApples = input => {
+  const boxSum = arr => arr.reduce((a,b) => a + b);
+ 
+  let inputCopy = input.filter(box =>  (box[0] !== 0 || box[1] !== 0) ) 
+  let firstSpare, secondSpare, insertion;  
+  //console.log(inputCopy);
+  inputCopy.forEach((box, i) => {
+    if( box.includes(0) ) {
+      if( ) 
+      firstSpare === undefined ? firstSpare = sum : secondSpare = sum;  
+    } 
+  })
+}
