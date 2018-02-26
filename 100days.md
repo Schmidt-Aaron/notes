@@ -481,3 +481,154 @@ const badApples = input => {
     } 
   })
 }
+```
+### 2/24/18 + 2/25/18 
+
+No coding -2 days
+
+###  D34 2/26/18
+
+Codewars 422 => 440;
+
+First challenge was pretty simple; add up all numbers that are multiples of 3 || 5 that are less than 'n'.
+
+
+My first solution was to use a for loop to fill an array with every number that met the criteria and then reduce it. This got a little messy when the array didn't have numbers in it. I added a ternary statement to deal with this.
+
+```
+const solution = number => {
+  let numArr = [];
+  for ( let i = 1; i < number; i++ ) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      numArr.push(i)  
+    }
+  }
+  return numArr.length > 0 ? numArr.reduce( (a, b) => a + b ) : 0;
+}
+```
+
+The top voted answer on this one did without the added complexity of an array, and just used a sum variable that the loop added to as it went. Not as flashy, but probably more efficient and definately easier to read. 
+
+```
+function solution(number){
+  var sum = 0;
+  
+  for(var i = 1;i< number; i++){
+    if(i % 3 == 0 || i % 5 == 0){
+      sum += i
+    }
+  }
+  return sum;
+}
+```
+
+Using higher order functions and added complexity is not always a good idea. simple !== bad. 
+
+Next Kata: [Find the odd int](https://www.codewars.com/kata/find-the-odd-int/train/javascript)
+
+"Given an array, find the int that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times."
+
+For this problem I will need a way to count how often each value occurs in the array, then filter for a odd value. 
+
+```
+const findOdd = arr => {
+  let counts = {};
+  arr.forEach(x => counts[x] = (counts[x] || 0) + 1 );
+  console.log(counts);
+}
+```
+
+After thinking about this one for a bit, I came across a pretty clever/eloquent solution to the counting part of the problem. I have no doubt that my solution would have been much more verbose. 
+
+What the above code does is loop through the supplied array and assign a key value pair for each element in the array. If the key is repeated then the loop adds 1 to the value. Pretty neat!
+
+Now let's tackle returning the int that occurs an odd # of times. 
+
+My first impulse would be to reach for a .filter() as I have dealing with arrays so much lately, but that would require converting our object to an array. One way of doing this would be to use Object.entries(obj), but that doesn't look like it is supported for this kata... luckily we can iterate over the object with a for...in loop. winning!
+
+final solution:
+```
+const findOdd = arr => {
+  let counts = {};
+  arr.forEach(x => counts[x] = (counts[x] || 0) + 1 );
+  
+  for( let prop in counts ){
+    if( counts[prop] % 2 !== 0 ) {
+      return +prop;
+    }
+  }
+}
+```
+
+Top voted solution:
+```
+const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
+```
+
+Wow, that is above my head. As far as I understand it, the XOR ('^') operator returns 0 if a pair of bits match, or 1 if they dont match. Since there is only one odd number integer in the array only one value will return 1. All the over value pairs will cross themselves out.
+
+Elegant. Hard to read though. It will take much more exposure to wrap my head about bitwise operators. 
+
+more on [bitwise operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators) 
+
+Another succinct solution (that I didnt think of):
+```
+// Cool one liner using ES6
+const findOdd = A => A.filter(x => A.filter(v => x === v).length % 2 === 1).reduce(a => a);
+```
+
+This one is pretty neat. It filters the initial array for values that occur an odd amount of times then reduces those values into a single occurance.
+
+
+[Equal Sides of an Array](https://www.codewars.com/kata/equal-sides-of-an-array)
+
+```
+const findEvenIndex = arr => {
+  const sum = array => array.reduce((a, b) => a + b);
+
+  if( sum(arr) === 0) { return 0 };
+
+  for( let i = 1; i < arr.length - 1; i++ ) {
+    if ( sum(arr.slice(0, i)) === sum(arr.slice(i + 1)) ) {
+      return i;
+    }
+  }
+  
+  return - 1
+}
+```
+This approach is not efficient as there are so many loops.
+
+[performance](https://jsperf.com/codewars-equal-sides-of-an-array) of the above problem. The best performing code is below:
+```
+function findEvenIndex4(arr) {
+      var i,
+          left,
+          right = 0,
+          len = arr.length;
+  
+      if (len === 0) {
+          return -1;
+      }
+  
+      left = arr[0];
+  
+      for (i = 1; i < len; i++) {
+          right += arr[i];
+      }
+  
+      for (i = 1; i < len; i++) {
+          right -= arr[i];
+          if (left === right) {
+              return i;
+          }
+          left += arr[i];
+      }
+  
+      return -1;
+  }
+```
+
+Much more verbose, but much much faster as it only needs two loops to solve. 
