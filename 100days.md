@@ -632,3 +632,11 @@ function findEvenIndex4(arr) {
 ```
 
 Much more verbose, but much much faster as it only needs two loops to solve. 
+
+### 2/27/18
+
+Today was super busy and I didn't get to play with much code. Read a few articles and listened to a Shoptalk podcast -1 day.
+
+### D34 2/28/18
+ 
+ watched some UDemy vids; read some YKDJS about Types. Need to code later!
