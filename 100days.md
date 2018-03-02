@@ -640,3 +640,83 @@ Today was super busy and I didn't get to play with much code. Read a few article
 ### D34 2/28/18
  
  watched some UDemy vids; read some YKDJS about Types. Need to code later!
+
+ ### D35 3/1/18
+
+ codeWars
+ [Bad Apples](https://www.codewars.com/kata/bad-apples/train/javascript) 
+
+ first attempt:
+ ```
+const badApples = input => {
+ const sum = arr => arr.reduce((a, b) => a + b);
+ let inputCopy = input.filter(box =>  (box[0] !== 0 || box[1] !== 0) ) 
+ let spares = [];  
+ let ans = [];
+ let inserted = 0;
+ 
+ inputCopy.forEach((box, i) => {
+   if (box[0] === 0 || box[1] === 0) {
+     spares.push([box, i])
+   } else {
+     ans.push(box);
+   }
+ })
+
+ while(spares.length > 1) {
+   let index = spares[0][1];
+   let newBox = [ sum(spares[0][0]), sum(spares[1][0]) ]; 
+   ans.splice(index - inserted, 0 , newBox);
+   inserted++;
+   spares.splice(0,2);
+ }
+
+ return ans;
+}
+ ```
+
+[Simple nearest prime](https://www.codewars.com/kata/simple-nearest-prime/train/javascript)
+
+ ```
+const solve = n =>{
+   const isPrime = num => {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+        if(num % i === 0) return false; 
+    return num !== 1;
+  }
+
+  for(let i = 0; i < 1000; i++) {
+    if( isPrime(n - i) ) { 
+      return (n - i)
+    }
+    
+    if( isPrime(n + i) ) { 
+      return (n + i)
+    }
+  }
+}
+ ```
+
+[Next Prime](https://www.codewars.com/kata/next-prime/train/javascript)
+ ```
+function nextPrime(n){
+  if(n === 0) {n++};
+  while( n++ ) {
+    if ( isPrime(n) ) {
+      return n;
+    }
+  }
+}
+
+const isPrime = num => {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+        if(num % i === 0) return false; 
+    return num !== 1;
+}
+ ```
+
+ [Multiplying numbers as strings](https://www.codewars.com/kata/multiplying-numbers-as-strings)
+
+ ```
+
+ ```
