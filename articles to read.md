@@ -4,3 +4,7 @@ This is aloose collection of articles that I skimmed or came across that I would
 
 1. https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
 1. https://medium.mybridge.co/learn-react-js-from-top-45-tutorials-for-the-past-year-v-2018-28b7f4d4b2c4
+
+1.  https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8 About coding interviews /w resources
+
+1. https://medium.freecodecamp.org/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7 about take home coding

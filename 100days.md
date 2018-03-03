@@ -720,3 +720,11 @@ const isPrime = num => {
  ```
 
  ```
+
+ Had to skip this one for now. No idea how to do it.
+
+ ### D36 3/2/18
+
+ Codewars fun
+
+  -> 470
