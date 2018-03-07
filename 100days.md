@@ -728,3 +728,50 @@ const isPrime = num => {
  Codewars fun
 
   -> 470
+
+  ### D37 3/3/18
+
+  Wordpress: work on a hero slider. 
+
+  ### D38 3/4/18
+
+  ### D38 3/5/18
+
+  More on windows slider. Went with Slick Slider as it looked pretty flexible. Got it loaded up and had a FOOC issue. Found a clever workaround that set all the slides to visibility: hidden; and opacity: 0 and then used a css transition based of an event that only occurs after the slider script starts to return them to visible. Neat. Next issue was that the arrow were hidden offscreen and behind my background image. Next steps are to customize the arrows and add animations to the textbox. 
+
+  ### D39 3/6/18
+
+  codewars fun.
+
+  Count # of value occurances inside an array using an object:
+  ```
+const arr = [1, 1, 1, 2, 2, 4];
+const checkThreeAndTwo = array => {
+  let counts = {};
+  for(let i = 0; i < array.length; i++) {
+    let value = array[i];
+    if( typeof counts[value] === "undefined" ) {
+      counts[value] = 1;
+    } else {
+      counts[value]++;
+    }
+  }
+  console.log(counts); // {1: 3, 2: 2, 4: 1}
+}
+  ```
+
+  or you can use a similar approach using reduce.
+  ```
+[].reduce((a, b) => (a[b] = a[b] + 1 || 1) && a, {});
+  ```
+or a forEach loop..
+```
+array.forEach(el => count[el] = count[el] +1 || 1);
+```
+
+ I am not 100% sure what the && a does for the reduce function... without it the funciton only returns one value though. The forEach approach made a lot more sense to me. 
+
+
+  Finish up slider intergration...
+  add animations to textbox... DONE. not in love with the slider. 
+  redo + animate arrows on hover..done. these are moderately classy.
