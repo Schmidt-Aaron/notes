@@ -775,3 +775,11 @@ array.forEach(el => count[el] = count[el] +1 || 1);
   Finish up slider intergration...
   add animations to textbox... DONE. not in love with the slider. 
   redo + animate arrows on hover..done. these are moderately classy.
+
+  ### D40 3/7/18
+
+  codewars 479 ->
+
+  First algo was to match CC numbers. My first approach used If statements, but then I saw that other solutions used regex so I solved it again using string.match(re). However, the better approach would be to use Regex.test() as it more performative. Neat!
+
+  
