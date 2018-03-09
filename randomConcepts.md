@@ -1,3 +1,4 @@
+# Client - Server interactions
 ## HTTPS Handshake
 
 Brief overview of process
@@ -21,3 +22,32 @@ Brief overview of process
 1. Now both client and server can send messages that are encrypted with the same secret key. 
 
 ## HTTP Handshake
+
+to be filled in later...
+
+# Coercion
+
+two types: explicit, implicit
+
+## Explicit
+
+```
+let a = 42;
+let val = String( a ) || a.toString(); // "42"
+
+```
+
+## Implicit
+
+```
+let a = 42;
+let val = a + ""; // "42"
+```
+
+## coercion weirdness
+
+```
+String(null) // "null"
+String(undefined) // "undefined"
+
+```
