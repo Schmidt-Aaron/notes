@@ -731,7 +731,11 @@ const isPrime = num => {
 
   ### D37 3/3/18
 
-  Wordpress: work on a hero slider. 
+  Wordpress: work on a hero slider for a client site. I first looked at a few popular plugins to try and save time. Metaslider was my first choice. Not a fan. It tries to be too user friendly and has way too many options without explaining what the options do. Just a struggle to try and get it to do what I wanted. 
+
+  Next up was [Slick Slider](https://github.com/kenwheeler/slick/). This one I like. Lots of options. You have to manually add the script and code the options by hand, but the docs are good. I think there is a plugin for wordpress, but since I was burned from my last plugin I decided to try the standalone script. 
+
+  I had to tweak the results a bit as the slider gives me some unpleasant FOUC as-is. I found an example where someone used a CSS transition to fix the issue. It set the container div to opacity 0, and the inner div visibility to hidden. Then with a slight delay it makes the content visible. The delay is enough for the content to load correctly.   
 
   ### D38 3/4/18
 
@@ -782,4 +786,33 @@ array.forEach(el => count[el] = count[el] +1 || 1);
 
   First algo was to match CC numbers. My first approach used If statements, but then I saw that other solutions used regex so I solved it again using string.match(re). However, the better approach would be to use Regex.test() as it more performative. Neat!
 
-  
+  ### D41 3/8/18
+
+  Wordpress client work. Today I worked on adding a facebook feed to the site.  
+
+  ### D42 3/9/18
+
+  Various codewars algos.
+
+  ### D41/40 3/10/18
+
+  -2 for not coding over the weekend.
+
+  ### D41 3/12/18
+
+  Codewars => 501
+
+  .Fetch practice with bitcoin api [codepen](https://codepen.io/aaronms/pen/Brjzpr)
+
+  ### D42 3/13/18
+
+tues 
+
+  ### 3/14/18
+
+weds
+
+  ###  3/15/18
+
+  more .fetch practice [codepen](https://codepen.io/aaronms/pen/gerXex)
+  note to self that fetch is not supported in IE at the time of writing this and alternative methods should be used for production.
