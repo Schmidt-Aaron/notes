@@ -44,7 +44,14 @@ let a = 42;
 let val = a + ""; // "42"
 ```
 
-## coercion weirdness
+Unary operator: attempts to convert the operand to a number
+
+```
+let numVal = +val // 42
++"3"  returns 3
+```
+
+## Coercion Weirdness
 
 ```
 String(null) // "null"
@@ -54,4 +61,74 @@ String(undefined) // "undefined"
 
 ## This Keyword
 
-parse [this](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85) later.. then add more?
+Value of ```this``` typically determined by a function execution context.
+
+In the Global Scope, ```this``` refers to the global object (window object)
+
+When using a constructor (new _____) ```this``` refers to the new object bring created
+
+```this``` can be explicitly bound with ```call()```, ```bind()```, and ```apply()```
+
+*Note* that arrow functions do not bind ```this```. When using an arrow function ```this``` refers to the orginating context.
+
+Add examples..
+
+## Using ES6 to enforce required parameters
+
+This nifty trick uses ES6 default values to make parameters required. It works by defining the default value for the parameters you want to be required to throw an error if called. That way, if the parameter is not included on the function call an error will be automatically thrown. Neat.
+
+``` 
+const required = () => {throw new Error('Missing parameter')};
+
+// if either a, or b is not present when the function is called an error will be thrown
+const add = (a = required(), b = required()) => a + b;
+
+add (1, 2) // 3
+add (1) // Error: Missing Parameter
+```
+
+## Using Reduce to count duplicates in an array.
+
+```
+const food = ['sammy', 'crackers', 'sammy', 'burger', 'burger'];
+
+const foodObj = food.reduce((obj, name) => {
+  obj[name] = obj[name] ? ++obj[name] : 1;
+  return obj;
+}, {}); // {sammy: 2, crackers: 1, burger: 2}
+```
+
+## Remove duplicates with Sets
+
+Sets only allow unique values to be stores so...
+
+
+```
+let arr = [1, 1, 2, 2, 3, 4, 5, 4, 7];
+let uniques = [...new Set(arr)] // [1,2, 3, 4, 5, 7]
+```
+Note that Sets default as objects so the [...] turns it into an array. 
+
+## Swap values in an Array
+
+```
+let a = 5;
+let b = 10;
+console.log(`before a:${a}, b:${b}`); //before a:5, b:10
+
+[a, b] = [b, a];
+console.log(`after a:${a}, b:${b}`); //after a:10, b:5
+```
+
+## Use Promise.all and destructuring to recieve and assign multiple values
+
+```
+async function getFullPost(){
+  return await Promise.all({
+    fetch('/post'),
+    fetch('/comments')
+  });
+}
+
+const [post, comments] = getFullPost()
+```

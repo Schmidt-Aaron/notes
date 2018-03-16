@@ -8,3 +8,4 @@ This is aloose collection of articles that I skimmed or came across that I would
 1.  https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8 About coding interviews /w resources
 
 1. https://medium.freecodecamp.org/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7 about take home coding
+1. https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/

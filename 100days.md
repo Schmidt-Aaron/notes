@@ -806,13 +806,22 @@ array.forEach(el => count[el] = count[el] +1 || 1);
 
   ### D42 3/13/18
 
-tues 
+  watched Udemy
+  read articles  
 
-  ### 3/14/18
+  ### D43 3/14/18
 
-weds
+  watched Udemy
+  read articles 
 
-  ###  3/15/18
+  ### D44 3/15/18
 
   more .fetch practice [codepen](https://codepen.io/aaronms/pen/gerXex)
   note to self that fetch is not supported in IE at the time of writing this and alternative methods should be used for production.
+
+ ### D45 3/16/18
+
+  added some more snippets to my concepts notes
+  udemy vids
+  articles
+  codewars => 510
