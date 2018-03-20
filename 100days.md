@@ -639,189 +639,201 @@ Today was super busy and I didn't get to play with much code. Read a few article
 
 ### D34 2/28/18
  
- watched some UDemy vids; read some YKDJS about Types. Need to code later!
+watched some UDemy vids; read some YKDJS about Types. Need to code later!
 
- ### D35 3/1/18
+### D35 3/1/18
 
- codeWars
- [Bad Apples](https://www.codewars.com/kata/bad-apples/train/javascript) 
+codeWars
+[Bad Apples](https://www.codewars.com/kata/bad-apples/train/javascript) 
 
- first attempt:
- ```
+first attempt:
+```
 const badApples = input => {
- const sum = arr => arr.reduce((a, b) => a + b);
- let inputCopy = input.filter(box =>  (box[0] !== 0 || box[1] !== 0) ) 
- let spares = [];  
- let ans = [];
- let inserted = 0;
- 
- inputCopy.forEach((box, i) => {
-   if (box[0] === 0 || box[1] === 0) {
-     spares.push([box, i])
-   } else {
-     ans.push(box);
-   }
- })
+const sum = arr => arr.reduce((a, b) => a + b);
+let inputCopy = input.filter(box =>  (box[0] !== 0 || box[1] !== 0) ) 
+let spares = [];  
+let ans = [];
+let inserted = 0;
 
- while(spares.length > 1) {
-   let index = spares[0][1];
-   let newBox = [ sum(spares[0][0]), sum(spares[1][0]) ]; 
-   ans.splice(index - inserted, 0 , newBox);
-   inserted++;
-   spares.splice(0,2);
- }
+inputCopy.forEach((box, i) => {
+  if (box[0] === 0 || box[1] === 0) {
+    spares.push([box, i])
+  } else {
+    ans.push(box);
+  }
+})
 
- return ans;
+while(spares.length > 1) {
+  let index = spares[0][1];
+  let newBox = [ sum(spares[0][0]), sum(spares[1][0]) ]; 
+  ans.splice(index - inserted, 0 , newBox);
+  inserted++;
+  spares.splice(0,2);
 }
- ```
+
+return ans;
+}
+```
 
 [Simple nearest prime](https://www.codewars.com/kata/simple-nearest-prime/train/javascript)
 
- ```
+```
 const solve = n =>{
-   const isPrime = num => {
-    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
-        if(num % i === 0) return false; 
-    return num !== 1;
-  }
+  const isPrime = num => {
+  for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+      if(num % i === 0) return false; 
+  return num !== 1;
+}
 
-  for(let i = 0; i < 1000; i++) {
-    if( isPrime(n - i) ) { 
-      return (n - i)
-    }
-    
-    if( isPrime(n + i) ) { 
-      return (n + i)
-    }
+for(let i = 0; i < 1000; i++) {
+  if( isPrime(n - i) ) { 
+    return (n - i)
+  }
+  
+  if( isPrime(n + i) ) { 
+    return (n + i)
   }
 }
- ```
+}
+```
 
 [Next Prime](https://www.codewars.com/kata/next-prime/train/javascript)
- ```
+```
 function nextPrime(n){
-  if(n === 0) {n++};
-  while( n++ ) {
-    if ( isPrime(n) ) {
-      return n;
-    }
+if(n === 0) {n++};
+while( n++ ) {
+  if ( isPrime(n) ) {
+    return n;
   }
+}
 }
 
 const isPrime = num => {
-    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
-        if(num % i === 0) return false; 
-    return num !== 1;
+  for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+      if(num % i === 0) return false; 
+  return num !== 1;
 }
- ```
+```
 
- [Multiplying numbers as strings](https://www.codewars.com/kata/multiplying-numbers-as-strings)
+[Multiplying numbers as strings](https://www.codewars.com/kata/multiplying-numbers-as-strings)
 
- ```
+```
 
- ```
+```
 
- Had to skip this one for now. No idea how to do it.
+Had to skip this one for now. No idea how to do it.
 
- ### D36 3/2/18
+### D36 3/2/18
 
- Codewars fun
+Codewars fun
 
-  -> 470
+-> 470
 
-  ### D37 3/3/18
+### D37 3/3/18
 
-  Wordpress: work on a hero slider for a client site. I first looked at a few popular plugins to try and save time. Metaslider was my first choice. Not a fan. It tries to be too user friendly and has way too many options without explaining what the options do. Just a struggle to try and get it to do what I wanted. 
+Wordpress: work on a hero slider for a client site. I first looked at a few popular plugins to try and save time. Metaslider was my first choice. Not a fan. It tries to be too user friendly and has way too many options without explaining what the options do. Just a struggle to try and get it to do what I wanted. 
 
-  Next up was [Slick Slider](https://github.com/kenwheeler/slick/). This one I like. Lots of options. You have to manually add the script and code the options by hand, but the docs are good. I think there is a plugin for wordpress, but since I was burned from my last plugin I decided to try the standalone script. 
+Next up was [Slick Slider](https://github.com/kenwheeler/slick/). This one I like. Lots of options. You have to manually add the script and code the options by hand, but the docs are good. I think there is a plugin for wordpress, but since I was burned from my last plugin I decided to try the standalone script. 
 
-  I had to tweak the results a bit as the slider gives me some unpleasant FOUC as-is. I found an example where someone used a CSS transition to fix the issue. It set the container div to opacity 0, and the inner div visibility to hidden. Then with a slight delay it makes the content visible. The delay is enough for the content to load correctly.   
+I had to tweak the results a bit as the slider gives me some unpleasant FOUC as-is. I found an example where someone used a CSS transition to fix the issue. It set the container div to opacity 0, and the inner div visibility to hidden. Then with a slight delay it makes the content visible. The delay is enough for the content to load correctly.   
 
-  ### D38 3/4/18
+### D38 3/4/18
 
-  ### D38 3/5/18
+### D38 3/5/18
 
-  More on windows slider. Went with Slick Slider as it looked pretty flexible. Got it loaded up and had a FOOC issue. Found a clever workaround that set all the slides to visibility: hidden; and opacity: 0 and then used a css transition based of an event that only occurs after the slider script starts to return them to visible. Neat. Next issue was that the arrow were hidden offscreen and behind my background image. Next steps are to customize the arrows and add animations to the textbox. 
+More on windows slider. Went with Slick Slider as it looked pretty flexible. Got it loaded up and had a FOOC issue. Found a clever workaround that set all the slides to visibility: hidden; and opacity: 0 and then used a css transition based of an event that only occurs after the slider script starts to return them to visible. Neat. Next issue was that the arrow were hidden offscreen and behind my background image. Next steps are to customize the arrows and add animations to the textbox. 
 
-  ### D39 3/6/18
+### D39 3/6/18
 
-  codewars fun.
+codewars fun.
 
-  Count # of value occurances inside an array using an object:
-  ```
+Count # of value occurances inside an array using an object:
+```
 const arr = [1, 1, 1, 2, 2, 4];
 const checkThreeAndTwo = array => {
-  let counts = {};
-  for(let i = 0; i < array.length; i++) {
-    let value = array[i];
-    if( typeof counts[value] === "undefined" ) {
-      counts[value] = 1;
-    } else {
-      counts[value]++;
-    }
+let counts = {};
+for(let i = 0; i < array.length; i++) {
+  let value = array[i];
+  if( typeof counts[value] === "undefined" ) {
+    counts[value] = 1;
+  } else {
+    counts[value]++;
   }
-  console.log(counts); // {1: 3, 2: 2, 4: 1}
 }
-  ```
+console.log(counts); // {1: 3, 2: 2, 4: 1}
+}
+```
 
-  or you can use a similar approach using reduce.
-  ```
+or you can use a similar approach using reduce.
+```
 [].reduce((a, b) => (a[b] = a[b] + 1 || 1) && a, {});
-  ```
+```
 or a forEach loop..
 ```
 array.forEach(el => count[el] = count[el] +1 || 1);
 ```
 
- I am not 100% sure what the && a does for the reduce function... without it the funciton only returns one value though. The forEach approach made a lot more sense to me. 
+I am not 100% sure what the && a does for the reduce function... without it the funciton only returns one value though. The forEach approach made a lot more sense to me. 
 
 
-  Finish up slider intergration...
-  add animations to textbox... DONE. not in love with the slider. 
-  redo + animate arrows on hover..done. these are moderately classy.
+Finish up slider intergration...
+add animations to textbox... DONE. not in love with the slider. 
+redo + animate arrows on hover..done. these are moderately classy.
 
-  ### D40 3/7/18
+### D40 3/7/18
 
-  codewars 479 ->
+codewars 479 ->
 
-  First algo was to match CC numbers. My first approach used If statements, but then I saw that other solutions used regex so I solved it again using string.match(re). However, the better approach would be to use Regex.test() as it more performative. Neat!
+First algo was to match CC numbers. My first approach used If statements, but then I saw that other solutions used regex so I solved it again using string.match(re). However, the better approach would be to use Regex.test() as it more performative. Neat!
 
-  ### D41 3/8/18
+### D41 3/8/18
 
-  Wordpress client work. Today I worked on adding a facebook feed to the site.  
+Wordpress client work. Today I worked on adding a facebook feed to the site.  
 
-  ### D42 3/9/18
+### D42 3/9/18
 
-  Various codewars algos.
+Various codewars algos.
 
-  ### D41/40 3/10/18
+### D41/40 3/10/18
 
-  -2 for not coding over the weekend.
+-2 for not coding over the weekend.
 
-  ### D41 3/12/18
+### D41 3/12/18
 
-  Codewars => 501
+Codewars => 501
 
-  .Fetch practice with bitcoin api [codepen](https://codepen.io/aaronms/pen/Brjzpr)
+.Fetch practice with bitcoin api [codepen](https://codepen.io/aaronms/pen/Brjzpr)
 
-  ### D42 3/13/18
+### D42 3/13/18
 
-  watched Udemy
-  read articles  
+watched Udemy
+read articles  
 
-  ### D43 3/14/18
+### D43 3/14/18
 
-  watched Udemy
-  read articles 
+watched Udemy
+read articles 
 
-  ### D44 3/15/18
+### D44 3/15/18
 
-  more .fetch practice [codepen](https://codepen.io/aaronms/pen/gerXex)
-  note to self that fetch is not supported in IE at the time of writing this and alternative methods should be used for production.
+more .fetch practice [codepen](https://codepen.io/aaronms/pen/gerXex)
+note to self that fetch is not supported in IE at the time of writing this and alternative methods should be used for production.
 
- ### D45 3/16/18
+### D45 3/16/18
 
-  added some more snippets to my concepts notes
-  udemy vids
-  articles
-  codewars => 510
+added some more snippets to my concepts notes
+udemy vids
+articles
+codewars => 510
+
+###  D44 3/17/18
+
+
+### D45 3/18/18
+
+Practice codepen using 4 different types of AJAX to access a Ron Swanson API
+Udemy vids
+
+### D46 3/19/18
+
+Udemy vids. Practiced .forEach, .map, .filter
