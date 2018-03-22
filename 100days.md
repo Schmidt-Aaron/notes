@@ -837,3 +837,14 @@ Udemy vids
 ### D46 3/19/18
 
 Udemy vids. Practiced .forEach, .map, .filter
+
+### D47 3/20/18
+
+udemy vids - some, each practice
+
+### D48 3/21/18
+udemy vids - closure, reduce practice
+
+### D49 3/22/18
+
+udemy vids - more reduce practice; about this/closures
