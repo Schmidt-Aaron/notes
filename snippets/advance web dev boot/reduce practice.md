@@ -91,3 +91,48 @@ function partition(arr, callback){
     }, [[],[]]);
 }
 ```
+
+/* Converting YDKJS code example to ES6/reduce. The function uses implicit coercion ( true => 1; ) to test the passed arguments and will return true if only one truthy value is passed (sum == 1).
+
+```
+function onlyOne() {
+	var sum = 0;
+	for (var i=0; i < arguments.length; i++) {
+		// skip falsy values. same as treating
+		// them as 0's, but avoids NaN's.
+		if (arguments[i]) {
+			sum += arguments[i];
+		}
+	}
+	return sum == 1;
+}
+
+var a = true;
+var b = false;
+
+onlyOne( b, a );		// true
+onlyOne( b, a, b, b, b );	// true
+
+onlyOne( b, b );		// false
+onlyOne( b, a, b, b, b, a );	// false
+```
+
+
+```
+const onlyOne() => {
+	let sum = 0;
+	[...arguments].reduce((acc, next) => {
+	    next ? sum += 1 : null;
+    },sum);
+
+    return sum == 1;
+}
+
+let a = true;
+let b = false;
+
+onlyOne(a, a, b); // true
+onlyOne(a, a, b) // false
+```
+
+The above example can be further truncated by removing the sum variable, but I think it makes the code more readable so I left it in.

@@ -848,3 +848,7 @@ udemy vids - closure, reduce practice
 ### D49 3/22/18
 
 udemy vids - more reduce practice; about this/closures
+
+### D50 3/23/18
+
+YDKJS coercion :)
