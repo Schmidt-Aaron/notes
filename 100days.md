@@ -852,3 +852,23 @@ udemy vids - more reduce practice; about this/closures
 ### D50 3/23/18
 
 YDKJS coercion :)
+
+### D49 3/26/18
+
+finished YDKJS Types and Grammer.
+Started YDKJS Async and Perf
+
+### D50 3/27/18
+
+finished YDKJS async ch1
+start gatsby portfolio site
+
+### D51 3/28/18
+
+work on gatsby site some. looking at various css-in-jss approaches...
+
+### D52 3/29/18
+
+More Gatsby work/research
+signed up for Firebase
+udemy vids
