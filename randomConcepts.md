@@ -132,3 +132,20 @@ async function getFullPost(){
 
 const [post, comments] = getFullPost()
 ```
+
+## Call, Apply, bind
+
+can only be applied to functions;
+allow the explicit binding of "this"; the first argument passed using one of the above methods will always be "this".
+
+Call, and apply invoke the function immediately, while bind does not invoke the function. 
+
+Call vs apply; the only difference is the parameters passed. 
+
+call(this, a, b, c, d, ...) loose parameters -- no limit in number
+apply(this, [a,b,c,d, ...]) // only two params
+bind(this, a, b, c, d, ...)
+
+when applied do not invoke the original function.
+eg. obj.randomfn.apply(newThis) // like this 
+obj.randomfn().apply(newThis) // nope!

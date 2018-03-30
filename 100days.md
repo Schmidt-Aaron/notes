@@ -872,3 +872,8 @@ work on gatsby site some. looking at various css-in-jss approaches...
 More Gatsby work/research
 signed up for Firebase
 udemy vids
+
+### D53 3/30/18
+
+call, bind, apply, and this... oh my
+function currying
