@@ -11,3 +11,5 @@ This is aloose collection of articles that I skimmed or came across that I would
 1. https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
 
 1. http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
+
+1. https://medium.com/swlh/calling-all-web-developers-heres-why-you-should-be-using-firefox-983f012d4aec
