@@ -877,3 +877,13 @@ udemy vids
 
 call, bind, apply, and this... oh my
 function currying
+
+### Weekend OOT -2 days
+
+### D52 4/2/18
+
+udemy OOP and YDKJS async
+
+### D53 4/3/18 
+
+udemy OOP and YDKJS - promises
