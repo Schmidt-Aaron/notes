@@ -84,12 +84,12 @@ let x = /** @type {HTMLInputElement} */(
 ```
 this will force the system to see the variable as the declared type. In the exampe above, x will now be accepted as an input element.
 
-### D3 1/8/18
+## D3 1/8/18
 
 CSS animations and page location triggers
 codepen:https://codepen.io/aaronms/pen/MrrPpE?editors=0110
 
-### D4 1/9/18
+## D4 1/9/18
 
 Started on my game of life project. Used create-react-app to bootstrap it. 
 
@@ -98,13 +98,13 @@ Started on my game of life project. Used create-react-app to bootstrap it.
 1. https://www.youtube.com/watch?v=PM0_Er3SvFQ
 1. https://codepen.io/rambutan/pen/ONOaaZ?editors=0010
 
-### D5 1/10/18
+## D5 1/10/18
 
 Listened to syntax.fm about GraphQL. 
 Looked over some react game of life code - still don't have a great handle on how to build. Will propably come when I actually start coding it. 
 Watched a couple videos on CSS animation.
 
-### D6 1/11/18
+## D6 1/11/18
 
 Worked on my game of life. I got a grid to display by creating a 2D array and pushing a box class into each spot. 
 
@@ -114,7 +114,7 @@ Next issue is how to activate cells ie toggle state. MY first idea was to play w
 
 Starting to get the hang of props and state.
 
-### D7 1/12/18
+## D7 1/12/18
 
 Watched coding train video on game of life. Will change my approach a little.
 
@@ -123,45 +123,45 @@ Watched coding train video on game of life. Will change my approach a little.
 1. add lifecycle => new array
 1. render new array
 
-### D8 1/13/18
+## D8 1/13/18
 
 rest day. Thinking about order of operations with react + canvas. 
 
-### 1/14/18
+## 1/14/18
 
 not productive
 
-### D8.2 1/15/18
+## D8.2 1/15/18
 
 Worked on GOF project. refactored existing code and added logic to compute lifecycle. SLOWWWW
 
-### D9 1/16/18
+## D9 1/16/18
 
 Got program to work... computer runs out of memory though. So that isn't ideal. Will have to refactor. Maybe ditch canvas and go back to a more DOM centric approach.
 
-### D10 1/17/18
+## D10 1/17/18
 
 Looked at WP docs - updated all sites. 
 Will add more animations to work site.
 refactor GOF to remove canvas - good example: https://codepen.io/chemok78/pen/aBgRGm?editors=0010
 https://codepen.io/giveback007/pen/aybGVb?editors=0010
 
-### D11 1/18/18
+## D11 1/18/18
 
 ARticles to look into further:
 1. https://medium.mybridge.co/learn-react-js-from-top-45-tutorials-for-the-past-year-v-2018-28b7f4d4b2c4
 1. https://medium.com/@strapi/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8
 1. https://hackernoon.com/migrating-your-node-js-rest-api-to-serverless-d2a170e0856c 
 
-### D12 1/19/18
+## D12 1/19/18
 
 Refactoring GOF - created a new branch to save the memory hogging code. Maybe revisit later - curious to how the program can eat up gigs of ram.
 
-### D11 1/20/18 and D10 1/21/18
+## D11 1/20/18 and D10 1/21/18
 
 *crickets* -2 days
 
-### D11 1/22/18
+## D11 1/22/18
 
 (2) codewars.com kata: interesting pattern using indexOf to generate numbers of a pattern - useful if numbers are sequential. Regex revisted. https://www.codewars.com/kata/5938f5b606c3033f4700015a
 
@@ -169,7 +169,7 @@ intersting article on implicit / explicit coercion: https://medium.freecodecamp.
 
 I should work on React later.
 
-### D12 1/23/18
+## D12 1/23/18
 
 Worked on work website. Took several hours to run all necessary updates/scans and pull a fresh copy of the site down. Probably should have done them concurrantly. Added some animation to the home page - had issues with adding multiple animation with my bare bones script. Might have to go with a more robust custom script to deal with having custom animations. 
 
@@ -178,7 +178,7 @@ A couple animation /scroll libs
   1. https://css-tricks.com/aos-css-driven-scroll-animation-library/
 1. https://github.com/matthieua/WOW 
 
-### D13 1/24/18
+## D13 1/24/18
 
 Work on work website some. 
 
@@ -210,13 +210,13 @@ conditionally enqueuing JS
 
 *http://docs.chassis.io* - should look into this for WP dev
 
-### D14 1/25/18
+## D14 1/25/18
 
 FEM JS for wp... a couple videos.
 Eloquent JS ch3
 not much done today :(
 
-### D15 1/26/18
+## D15 1/26/18
 
 eloquent JS ch4 ex completed: all
 eloquent JS ch5 ex completed: 1, 
@@ -224,11 +224,11 @@ FEM JS for wp- finished AJAX in WP section
 TODO: [Scrimba](https://scrimba.com/g/gflexbox)) flexbox and CSS grid courses
  
 
- ### 1/27 + 1/28 
+ ## 1/27 + 1/28 
  
  *PDX Holiday* -2 days
 
- ### D14 1/29/18
+ ## D14 1/29/18
 
  article to read more closely: https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc
 
@@ -243,21 +243,21 @@ Page speed stuff
 
  FEM js for WP a couple vids: need to finish challenge 5 + 6
 
-### D15 1/30/18
+## D15 1/30/18
 
 FEM JS for WP - finished accessing APIs inside Wordpress
 
-### D16 1/31/18
+## D16 1/31/18
 
 finished JS for WP
 
-### D17 2/1/18
+## D17 2/1/18
 
 Tired => no actual coding
 1. Coding train videos
 1. other youtube coding vids
 
-### D18 2/2/18
+## D18 2/2/18
 
 1. Codewars kata (1)
 1. github practice
@@ -269,58 +269,58 @@ cool sites:
 1. [waaark](https://waaark.com/)
 1. [vscode stuff](http://vscodecandothat.com/)
 
-### D19 2/3/18
+## D19 2/3/18
 
 1. youtube vids
 
-### D19 2/4/18
+## D19 2/4/18
 
 nothing -1 day
 
-### D20 2/5/18
+## D20 2/5/18
 
 1. codewars kata(1)
 1. youtube vids
 1. worked on game of life. A bit of a struggle to get the lifecycle thing figured out. The two main obstacles are how to get the incrementGeneration function to only be called after the previous call is done, and how to assign a clickhandler to change the state of the individual cells. 
 
-### D21 2/6/18
+## D21 2/6/18
 
 Made decent progrss on game of life. Refactored with more components. I moved all the state into a game class and pulled the board, counter, and buttons into that class. [this post](https://forum.freecodecamp.org/t/nagging-little-questions-about-my-react-game-of-life-program/113482/2) as the linked GOL demonstrated how to pass functions down as props and how to pass this back up the chain. 
 I finished up the toggle on click function. 
 Something is still wrong with how I figure out neighbors though - I will have to look into that more.
 
-### D22 2/7/18
+## D22 2/7/18
 
 debuggin my gol... :(
 udemy vids
 
-### D23 2/8/18
+## D23 2/8/18
 
 More debuggins...sigh
 udemy vids
 
-### D24 2/9/18
+## D24 2/9/18
 
 udemy vids
 
-### D25 2/10/18
+## D25 2/10/18
 
 Node videos
 
-### D26 2/11/18 
+## D26 2/11/18 
 node videos
 
-### D27 2/12/18
+## D27 2/12/18
 
 codewars kata(2)
 udemy vids
 
-### D28 2/13/18
+## D28 2/13/18
 
 codewars katas rank 6 => 5
 udemy vids - animation practice: https://codepen.io/aaronms/pen/QQMONd?editors=1100 sunrise animation. used straight lines; would be cool to have an actual arc. tough to figure out though :(
 
-### D29 2/14/18
+## D29 2/14/18
 
 udemy more animation practice.
 https://codepen.io/pen/?editors=1100
@@ -328,30 +328,30 @@ udemy vids - flexbox
 
 codewars 335 => 347
 
-### D30 2/15/18
+## D30 2/15/18
 
 codewars 347 => 371
 
-### D31 2/15/18
+## D31 2/15/18
 
 codewars 371 => 371 ?? no increase; did several algos
 
-### D32 2/16/18
+## D32 2/16/18
 
 Codewars and???
 
-### D31 2/19/18
+## D31 2/19/18
 
 codewars 386 => 392
 
-### D32 2/20/18
+## D32 2/20/18
 
 Worked through flexbox section of Udemy course. Will practice by creating a responsive landing page. use their template as a starting point and create my own instead of following along.
 [codepen](https://codepen.io/aaronms/pen/oEqOBd) about 40% done with sections, then need to fine tune the design a bit. 
  
 codewars 392 => ...
 
-### D33 2/21/18
+## D33 2/21/18
 
 Watched Udemy vids
 codewars 392 => 407
@@ -359,7 +359,7 @@ I think I made [this one](https://www.codewars.com/kata/simple-frequency-sort/tr
 worked on udemy landing flexbox landing page.
 started asyc section of udemy.
 
-### D34 2/22/18
+## D34 2/22/18
 
 codewars 407 => 415
 found a neat way to assign values to an array/string based on their place in the alphabet. Version 1 was my first answer, version 2 was the new way.
@@ -458,7 +458,7 @@ const last = (num) => {
 }
 ```
 
-### D35 2/23/18
+## D35 2/23/18
 
 Read a few articles. This [one](https://medium.freecodecamp.org/how-i-applied-lessons-learned-from-a-failed-technical-interview-to-get-5-job-offers-656fcf58034d) about a new dev's first coding job was pretty inspiring.
 
@@ -482,11 +482,11 @@ const badApples = input => {
   })
 }
 ```
-### 2/24/18 + 2/25/18 
+## 2/24/18 + 2/25/18 
 
 No coding -2 days
 
-###  D34 2/26/18
+##  D34 2/26/18
 
 Codewars 422 => 440;
 
@@ -633,15 +633,15 @@ function findEvenIndex4(arr) {
 
 Much more verbose, but much much faster as it only needs two loops to solve. 
 
-### 2/27/18
+## 2/27/18
 
 Today was super busy and I didn't get to play with much code. Read a few articles and listened to a Shoptalk podcast -1 day.
 
-### D34 2/28/18
+## D34 2/28/18
  
 watched some UDemy vids; read some YKDJS about Types. Need to code later!
 
-### D35 3/1/18
+## D35 3/1/18
 
 codeWars
 [Bad Apples](https://www.codewars.com/kata/bad-apples/train/javascript) 
@@ -723,13 +723,13 @@ const isPrime = num => {
 
 Had to skip this one for now. No idea how to do it.
 
-### D36 3/2/18
+## D36 3/2/18
 
 Codewars fun
 
 -> 470
 
-### D37 3/3/18
+## D37 3/3/18
 
 Wordpress: work on a hero slider for a client site. I first looked at a few popular plugins to try and save time. Metaslider was my first choice. Not a fan. It tries to be too user friendly and has way too many options without explaining what the options do. Just a struggle to try and get it to do what I wanted. 
 
@@ -737,13 +737,13 @@ Next up was [Slick Slider](https://github.com/kenwheeler/slick/). This one I lik
 
 I had to tweak the results a bit as the slider gives me some unpleasant FOUC as-is. I found an example where someone used a CSS transition to fix the issue. It set the container div to opacity 0, and the inner div visibility to hidden. Then with a slight delay it makes the content visible. The delay is enough for the content to load correctly.   
 
-### D38 3/4/18
+## D38 3/4/18
 
-### D38 3/5/18
+## D38 3/5/18
 
 More on windows slider. Went with Slick Slider as it looked pretty flexible. Got it loaded up and had a FOOC issue. Found a clever workaround that set all the slides to visibility: hidden; and opacity: 0 and then used a css transition based of an event that only occurs after the slider script starts to return them to visible. Neat. Next issue was that the arrow were hidden offscreen and behind my background image. Next steps are to customize the arrows and add animations to the textbox. 
 
-### D39 3/6/18
+## D39 3/6/18
 
 codewars fun.
 
@@ -780,146 +780,155 @@ Finish up slider intergration...
 add animations to textbox... DONE. not in love with the slider. 
 redo + animate arrows on hover..done. these are moderately classy.
 
-### D40 3/7/18
+## D40 3/7/18
 
 codewars 479 ->
 
 First algo was to match CC numbers. My first approach used If statements, but then I saw that other solutions used regex so I solved it again using string.match(re). However, the better approach would be to use Regex.test() as it more performative. Neat!
 
-### D41 3/8/18
+## D41 3/8/18
 
 Wordpress client work. Today I worked on adding a facebook feed to the site.  
 
-### D42 3/9/18
+## D42 3/9/18
 
 Various codewars algos.
 
-### D41/40 3/10/18
+## D41/40 3/10/18
 
 -2 for not coding over the weekend.
 
-### D41 3/12/18
+## D41 3/12/18
 
 Codewars => 501
 
 .Fetch practice with bitcoin api [codepen](https://codepen.io/aaronms/pen/Brjzpr)
 
-### D42 3/13/18
+## D42 3/13/18
 
 watched Udemy
 read articles  
 
-### D43 3/14/18
+## D43 3/14/18
 
 watched Udemy
 read articles 
 
-### D44 3/15/18
+## D44 3/15/18
 
 more .fetch practice [codepen](https://codepen.io/aaronms/pen/gerXex)
 note to self that fetch is not supported in IE at the time of writing this and alternative methods should be used for production.
 
-### D45 3/16/18
+## D45 3/16/18
 
 added some more snippets to my concepts notes
 udemy vids
 articles
 codewars => 510
 
-###  D44 3/17/18
+##  D44 3/17/18
 
 
-### D45 3/18/18
+## D45 3/18/18
 
 Practice codepen using 4 different types of AJAX to access a Ron Swanson API
 Udemy vids
 
-### D46 3/19/18
+## D46 3/19/18
 
 Udemy vids. Practiced .forEach, .map, .filter
 
-### D47 3/20/18
+## D47 3/20/18
 
 udemy vids - some, each practice
 
-### D48 3/21/18
+## D48 3/21/18
 udemy vids - closure, reduce practice
 
-### D49 3/22/18
+## D49 3/22/18
 
 udemy vids - more reduce practice; about this/closures
 
-### D50 3/23/18
+## D50 3/23/18
 
 YDKJS coercion :)
 
-### D49 3/26/18
+## D49 3/26/18
 
 finished YDKJS Types and Grammer.
 Started YDKJS Async and Perf
 
-### D50 3/27/18
+## D50 3/27/18
 
 finished YDKJS async ch1
 start gatsby portfolio site
 
-### D51 3/28/18
+## D51 3/28/18
 
 work on gatsby site some. looking at various css-in-jss approaches...
 
-### D52 3/29/18
+## D52 3/29/18
 
 More Gatsby work/research
 signed up for Firebase
 udemy vids
 
-### D53 3/30/18
+## D53 3/30/18
 
 call, bind, apply, and this... oh my
 function currying
 
-### Weekend OOT -2 days
+## Weekend OOT -2 days
 
-### D52 4/2/18
+## D52 4/2/18
 
 udemy OOP and YDKJS async
 
-### D53 4/3/18 
+## D53 4/3/18 
 
 udemy OOP and YDKJS - promises
 
-### D54 4/4/18
+## D54 4/4/18
 
 udemy node todo app
 
-### D55 4/5/18
+## D55 4/5/18
 
 work on node todo app
 
-### D56 4/6/18
+## D56 4/6/18
 
 udemy vids
 
-### weekend break 4-7 + 4/8
+## weekend break 4-7 + 4/8
 
 minus 2 days
 
-### D55 4/9/18
+## D55 4/9/18
 
 work on new voting app 
 
-### D56 4/10/18
+## D56 4/10/18
 
 Udemy + YDKJS
 
-### D57 4/11/18
+## D57 4/11/18
 
 Udemy + YDKJS
 
-### D58 4/12/18
+## D58 4/12/18
 
 Udemy + YDKJS
 
-### D59 4/13/18
+## D59 4/13/18
 
-voting app 
+### voting app
+
+Made some good progress on my voting app today. 
+  - added ability to add new poll
+  - added delete api + bound to page
+  - added dynamic pages for each poll with pug and links from homepage
+  - added basic styling, although it's still pretty ugly  
+  - added ability to have more than 2 choices in each poll
+
+There is still much to be done. My plan is to firm up the basic functionality then add users. After user functionality is working I will add some polish to app.
