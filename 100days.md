@@ -891,3 +891,35 @@ udemy OOP and YDKJS - promises
 ### D54 4/4/18
 
 udemy node todo app
+
+### D55 4/5/18
+
+work on node todo app
+
+### D56 4/6/18
+
+udemy vids
+
+### weekend break 4-7 + 4/8
+
+minus 2 days
+
+### D55 4/9/18
+
+work on new voting app 
+
+### D56 4/10/18
+
+Udemy + YDKJS
+
+### D57 4/11/18
+
+Udemy + YDKJS
+
+### D58 4/12/18
+
+Udemy + YDKJS
+
+### D59 4/13/18
+
+voting app 
