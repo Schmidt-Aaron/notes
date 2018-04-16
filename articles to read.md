@@ -13,3 +13,5 @@ This is aloose collection of articles that I skimmed or came across that I would
 1. http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
 
 1. https://medium.com/swlh/calling-all-web-developers-heres-why-you-should-be-using-firefox-983f012d4aec
+
+1. https://blog.kentcdodds.com/how-to-react-%EF%B8%8F-9e87f48414d2
