@@ -967,3 +967,7 @@ There is still much to be done. My plan is to firm up the basic functionality th
 Spent several hours learning about and setting up ESlint and Prettier for the project. There was some conflicts between the two tools that took a little while to resolve. I briefly looked at adding webpack to the application... but it was hard so I changed my mind and removed it. I will try to revisit that after the app is a bit more mature.
 
 No major updates pushed today. Made a bunch of minor code refactors to appease ESlint.
+
+## D59 4/17/18
+
+udemy React vids
